@@ -70,15 +70,13 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(extract zsh-autosuggestions zsh-syntax-highlighting nvm fzf)
+plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting fzf)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export GOPATH=$HOME/go
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:$HOME/.config/composer/vendor/bin
 
 # You may need to manually set your language environment
  export LANG=en_US.UTF-8
@@ -107,28 +105,15 @@ alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
 alias cls="clear"
-alias shopsend="cd ~/go/src/github.com/thebitmonk/sendx/shopsend/"
-alias sendx="cd ~/go/src/github.com/thebitmonk/sendx/sendx/app_server"
-alias sendpost="cd ~/go/src/github.com/thebitmonk/sendx/sendpost/"
-alias cd_redis="cd ~/Downloads/redis-6.2.4"
-alias gpr="git pull --rebase"
-alias gst="git status"
 alias gl="git log --graph --oneline --decorate --all"
-alias reb="git fetch upstream && git checkout master && git rebase upstream/master && git push -f origin master"
 alias lf="ls -d */"
 alias ll="ls -lth"
 alias ls='ls -F --color=auto --show-control-chars'
 alias which-gpu="glxinfo | grep -i vendor"
 alias gpu="watch -n 2 nvidia-smi"
 alias cpu="watch -n 2 sensors"
-alias sendpost-server="sendpost && cd api_server"
-alias code-sendpost-server="sendpost-server && code ."
-alias sendpost-frontend="sendpost && cd api_frontend"
-alias code-sendpost-frontend="sendpost-frontend && code-insiders ."
-alias code-sendx="sendx && code ."
 alias v='f -e vim'   # quick opening files with vim
 alias m='f -e vlc'   # quick opening files with vlc player
-alias php="/usr/bin/php7"
 
 # keybindings
 bindkey '^H' backward-kill-word
