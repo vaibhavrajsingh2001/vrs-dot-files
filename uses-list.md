@@ -7,6 +7,7 @@ In no particular order →
   - setup Drowpdown terminal [https://niracler.com/quake-terminal?locale=en](niracler.com/quake-terminal)
   - [iterm setup config](https://drive.google.com/file/d/1y5nh9KKzvKlv5qN-GKO_qbIY9FRAXXx7/view?usp=sharing)
   - [FNM](https://github.com/Schniz/fnm) — node version manager
+  - [Viddy](https://github.com/sachaos/viddy) — watch alternative
 - [Oh My ZSH](https://ohmyz.sh/#install)
   - [ZSH autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
   - [ZSH syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
