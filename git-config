@@ -1,0 +1,12 @@
+Host personal
+  HostName github.com
+  IdentityFile ~/.ssh/vaibhavrajsingh2001
+
+# usage: git clone git@personal:sachaos/viddy.git
+
+Host work
+  AddKeysToAgent yes
+  HostName github.com
+  IdentityFile ~/.ssh/deepsource
+
+# usage: git clone git@work:sachaos/viddy.git
